@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>3D Grapher</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.10.0/vis.min.css" type="text/javascript"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/2.5.0/math.min.js" type="text/javascript"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vis/4.10.0/vis.min.js'></script>
+
+
+</head>
+
+<body>
+    <div>
+        f(x,y) =
+        <input type="text" id="inputEquation3D" />
+
+    </div>
+    <div>
+        x ranges from
+        <input type="text" id="xStart" /> to
+        <input type="text" id="xEnd" />
+    </div>
+    <div>
+        y ranges from
+        <input type="text" id="yStart" /> to
+        <input type="text" id="yEnd" />
+    </div>
+    <div>
+        number of points to plot
+        <input type="text" id="steps" />
+    </div>
+    <div>
+        <input type="button" value="Graph 3D" id="calculate3D" cd/>
+    </div>
+
+
+    <!--
+    <div>
+        f(x) =
+        <input type="text" id="inputEquation2D" />
+        <input type="button" value="Graph 2D" id="calculate2D" cd/>
+    </div>
+-->
+
+
+    <h3 id="example">Example Graph: f(x,y) = x + y </h3>
+
+    <div id="visualization"></div>
+
+
+    <script src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
