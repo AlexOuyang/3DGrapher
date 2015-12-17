@@ -1,0 +1,27 @@
+{
+	"name": "3DGrapher",
+	"version": "0.1.0",
+	"description": "3D & 2D graph creator using Vis.js and Math.js",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": [
+		{
+			"name": "Alex Ouyang",
+			"email": "ouyangchenxing@gmail.com"
+	    },
+	    {
+			"name": "Han M. Naing",
+			"email": "minnaing.net@gmail.com"
+	    }
+	],
+	"license": "ISC",
+	"repository": {
+	    "type": "git",
+	    "url": "https://github.com/AlexOuyang/3DGrapher"
+	},
+	"dependencies": {
+		"express": "^4.13.3"
+	}
+}
